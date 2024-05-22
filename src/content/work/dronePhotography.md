@@ -2,7 +2,7 @@
 title: Drone Photography
 publishDate: 2024-05-20 00:00:00
 img: /assets/beachWaves.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Waves from Bethany Beach, DE
 description: |
  
 tags:
