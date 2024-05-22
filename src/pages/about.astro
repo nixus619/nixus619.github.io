@@ -1,0 +1,184 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Nick Cedor" description="Resume for Nick Cedor">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Read below to learn more about myself and my background. References are available upon request."
+			>
+				<img
+					width="900"
+					height="600"
+					src="/assets/at-work.jpg"
+					alt="Diwali 2021"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<h5>
+					iptiQ by Swiss Re (Armonk, NY)
+					</h5>
+					<i> Senior Configuration Engineer - Assistant Vice President
+					<br>
+					September 2019 to present
+					</i>
+					<p>
+					Build a new insurance platform by leveraging the no-code development platform Unqork and existing internal API calls. This includes working closely with end business users and internal technical team to debug issues that arise.
+					<br> 
+					Monitor the platform after features are commercialized and ensure quality and consistency.
+					<br>
+					Strategize new implementations that are requested from the business team and once committed to a sprint, deliver them in a timely fashion.
+					<br>
+					Using the Sparkling Logic (SMARTS) decision management software, develop underwriting rules that are then leveraged on the insurance platform across various products.
+					<br>
+					Take part as a key player in the testing cycle by creating, executing, and managing manual and automated testing suites using tools such as Selenium, Mabl, Azure DevOps, & Java.
+					</p>
+					<br>
+					<h5> Georgia Institute of Technology (Atlanta, GA)</h5>
+					<i> January 2019 to present
+					<br>
+						Instructional Associate (remote)
+					</i>
+					<p>
+					Assist with the management of the graduate class "CS-6603: AI, Ethics, & Society." This includes creating new assignments on a semester-to-semester basis or updating existing instructions.
+					<br>
+					Grade student's assignments (both coded and written).
+					<br>
+					Host weekly live office hours where students can ask questions in real time.
+					<br>
+					Answer any questions posed by students to the internal messaging board (Ed Discussion).
+				</p>
+				<br>
+				<h5>
+					Real-Time Technology Solutions (New York, NY)
+				</h5>
+				<i> July 2016 - September 2019</i>
+				<p>
+					 Use IBM's Rational Functional Tester to test software at various clients in the metropolitan area. 
+				<br>
+				Work on the internal IT team as an engineer tasked with demoing the company's proprietary software to prospective clients as well as debugging and resolving bugs. 
+				<br>
+				Teach classes around the BDD framework with an emphasis on the Cucumber tool. 
+				</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<h5> Georgia Institute of Technology (Atlanta, GA)</h5>
+					<i> Master of Science, Computer Science 
+						<br>
+						Concentration: Interactive Intelligence
+					</i>
+					<p>Completed in December 2020
+						<br>
+						Relevant Coursework:
+						<ul>
+							<li>
+								Artificial Intelligence
+							</li>
+							<li>
+								Knowledge-Based Artificial Intelligence
+							</li>
+							<li>
+								Software Development Process
+							</li>
+							<li>
+								Software Analysis & Test
+							</li>
+							<li>
+								Computer Networks
+							</li>
+							<li>
+								AI, Ethics, & Society
+							</li>
+						</ul>
+					</p>
+					<br>
+					<h5>
+						Christopher Newport University (Newport News, VA)
+					</h5>
+					<i>
+						Bachelor of Science, Computer Science
+					</i>
+					<p>
+						Completed in May 2016
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>Unqork, Python, Astro, Sparkling Logic, Java, Selenium, Astro, SQL, CSS, JavaScript, Cucumber</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
