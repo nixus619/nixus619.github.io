@@ -49,5 +49,4 @@ for (let item=0; item < events.length; item++){
 A big drawback of what I've implemented here is that endpoints are called at build time. This means we will see some issues if the website is running for over a day as the endpoint is only called to fetch the data when the site is built. There is a way to turn it into live server end points that can be called on request via SSR mode, but more research would be needed to support this. This roadblock has led me to pursue another project which will use the same ESPN end point to populate game data on a virtual scoreboard. More information will be on another blog post.
 
 #### Full Page Example
-
-![image](/assets/fullPage.jpeg)
+![image](/assets/fullPage.jpg)
