@@ -9,6 +9,7 @@ tags:
   - Server
   - Data
   - NAS
+  - Tech Solutions
 ---
 
 ## Background
@@ -30,7 +31,6 @@ I thought of this idea as I was watching my wife's family home videos back from 
 2x Ethernet cable
 
 #### Set up
-
 Server set up is made pretty easy by Synology. The first thing people online recommended was to upgrade the RAM which would help handle concurrent users on the server so I unscrewed a few screws on the back and popped in the new RAM stick. The next thing was to add the NAS drives which they slid in nicely to the bay. Next, I added 2 ethernet cables to provide network fault tolerance. Finally, I just had to plug it in and boot it up.
 
 Once booted up and required updates were ran, I had to set up the storage pool/volume which just entailed going through the prompts, selecting both drives to allocate, and selecting the RAID type. After that all that was left to do was set up shared folders, additional users, and what those users should be able to access on the server.
