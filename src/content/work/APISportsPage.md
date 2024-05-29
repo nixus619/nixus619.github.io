@@ -13,7 +13,7 @@ tags:
 
 ## Background
 
-This was my first project using Astro and I just wanted to develop something quick just to get my bearings. I chose to pull ESPN API and list games across the 4 major US sports to get familiar with the API for a future project (more on that later)
+I chose to pull ESPN API and list games across the 4 major US sports to get familiar with the API for a future project (more on that later) and, using astro, render them on an easy to read webpage.
 
 ## The solution
 
