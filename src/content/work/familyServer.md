@@ -1,6 +1,6 @@
 ---
 title: Family Server
-publishDate: 2020-05-22 00:00:00
+publishDate: 2024-05-22 00:00:00
 img: /assets/synologyServer.png
 img_alt: Server homepage
 description: |

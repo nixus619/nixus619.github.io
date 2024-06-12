@@ -1,6 +1,6 @@
 ---
 title: Insurance Platform on Unqork
-publishDate: 2020-05-24 00:00:00
+publishDate: 2024-05-24 00:00:00
 img: /assets/unqork.png
 img_alt: unqork Logo
 description: |
