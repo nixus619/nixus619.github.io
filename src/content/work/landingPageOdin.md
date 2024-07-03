@@ -16,4 +16,4 @@ After completing a bunch of exercises and learning about css and specifically fl
 
 <a href="https://nixus619.github.io/foundations-landing-page/"> Live demo </a>
 
-<a href="https://github.com/nixus619/foundations-landing-page"> github repo for project </a>
+<a href="https://github.com/nixus619/foundations-landing-page"> GitHub repo for project </a>
