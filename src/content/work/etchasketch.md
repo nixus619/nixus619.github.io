@@ -16,8 +16,8 @@ Here is a project in manipulating the DOM as there is almost no HTML/CSS include
 
 It was initially tough to create a grid of the exact size I wanted, especially through javascript only. Eventually I settled on creating the columns first and then creating the rows all while using Flexbox to make it a perfect box of n size, every time. The next hurdle to get through was to ensure that when mousing over a square that already had a color to not select a new random color and instead make the color increase in opacity, so I needed to mess around with the specific cells style. Finally, on reset and resize, everything needed to be reset to their initial color/opacity so when the user begins to fill the box in again, the existing functions continue to work. 
 
-<a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch"> Project Prompt </a>
-
 <a href="https://nixus619.github.io/etch-a-sketch/"> Live demo </a>
 
 <a href="https://github.com/nixus619/etch-a-sketch"> GitHub repo for project </a>
+
+<a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch"> Project Prompt </a>
